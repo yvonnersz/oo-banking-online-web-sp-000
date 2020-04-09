@@ -22,6 +22,7 @@ class Transfer
         receiver.balance += amount
         @status = "complete"
         counter +=1
+        binding.pry
       end
     else
       "Transaction rejected. Please check your account balance."
