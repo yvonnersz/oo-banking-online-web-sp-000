@@ -13,7 +13,7 @@ class Transfer
   end
 
   def execute_transaction
-    valid? == true ? "transfer":"Transaction rejected. Please check your account balance"
+    valid? == true ? "transfer":"Transaction rejected. Please check your account balance."
   end
 
 end
