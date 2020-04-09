@@ -19,7 +19,6 @@ class Transfer
       @status = "complete"
     elsif valid? == false
       "Transaction rejected. Please check your account balance."
-      @status = "rejected"
     end
   end
 
