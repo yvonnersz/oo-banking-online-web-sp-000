@@ -13,7 +13,7 @@ class Transfer
   end
 
   def execute_transaction
-    receiver.deposit += sender.amount
+    if valid? == true ? "transfer":"not valid"
   end
 
 end
