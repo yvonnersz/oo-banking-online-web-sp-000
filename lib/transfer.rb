@@ -14,6 +14,7 @@ class Transfer
 
   def execute_transaction
     if valid? == true ? "transfer":"not valid"
+    end
   end
 
 end
