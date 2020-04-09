@@ -1,8 +1,9 @@
 class Transfer
 
 
-  def initialize(name)
-
+  def initialize
+    @status = "pending"
+    
   end
 
 
