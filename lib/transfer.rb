@@ -18,10 +18,10 @@ class Transfer
     if (valid? == true && amount < sender.balance)
       counter = 0
       until counter = 1
-        counter +=1
         sender.balance -= amount
         receiver.balance += amount
         @status = "complete"
+        counter +=1
       end
     else
       "Transaction rejected. Please check your account balance."
