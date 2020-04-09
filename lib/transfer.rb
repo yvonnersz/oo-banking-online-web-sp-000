@@ -13,7 +13,7 @@ class Transfer
   end
 
   def execute_transaction
-    receiver.deposit(amount)
+    receiver.deposit += sender.amount
   end
 
 end
