@@ -1,7 +1,7 @@
 class Transfer
 
 
-  def initialize
+  def initialize(amount)
     @status = "pending"
 
   end
