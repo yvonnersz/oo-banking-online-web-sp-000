@@ -12,7 +12,7 @@ class Transfer
     sender.valid? && receiver.valid?
   end
 
-  def execute_transaction(amount)
+  def execute_transaction
 
   end
 
